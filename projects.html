@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Creative MultiPage Website</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Creative<span>Web</span></div>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
+      </ul>
+      <div id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="business">Business</button>
+      <button class="filter-btn" data-filter="personal">Personal</button>
+      <button class="filter-btn" data-filter="blog">Blog</button>
+    </div>
+    <div class="project-list">
+      <div class="project-card" data-category="business">
+        <h3>Startup Launch</h3>
+        <p>Landing page and dashboard for a fintech startup, featuring analytics and user onboarding.</p>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+      <div class="project-card" data-category="personal">
+        <h3>Artist Portfolio</h3>
+        <p>Personal portfolio for a digital artist with interactive gallery and contact form.</p>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+      <div class="project-card" data-category="blog">
+        <h3>Travel Blog</h3>
+        <p>A responsive blog site for sharing travel stories, maps, and photo albums.</p>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+      <div class="project-card" data-category="business">
+        <h3>Restaurant Website</h3>
+        <p>Modern site with menu, booking system, and customer reviews for a local restaurant.</p>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+      <div class="project-card" data-category="personal">
+        <h3>Resume Builder</h3>
+        <p>Interactive tool for building and exporting stylish resumes online.</p>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+      <div class="project-card" data-category="blog">
+        <h3>DevTips Blog</h3>
+        <p>A blog for sharing coding tips, tutorials, and project showcases.</p>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 CreativeWeb. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
